@@ -4,37 +4,27 @@
 }
 
 .barra-lateral {
-  background-color: #d0756f;
-  width: 35%;
+  background-color: rgb(130, 48, 48);
+  width: 30%;
   height: 100vh;
-  left: 0px;
-  top: 0px;
-  bottom: 0px;
+  float:left;
 }
 
 .container {
-  background-color: aliceblue;
-  width: 65%;
+  background-color:blanchedalmond;
+  width: 70%;
   height: 100vh;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
-  position: absolute;
+  float:left;
 }
 
 .foto {
   height: 30vh;
   border-radius: 50%;
-  position: relative;
-  top: 23vh;
-  left: 10vw;
-  right: 60vw;
-  bottom: 47vh;
+  margin: 23vh 60vw 0vw 8vw;
 }
 
 .lista {
-  padding-top: 28vh;
-  padding-left: 10vw;
+  margin: 8vh 8vw 0vw 8vw;
   text-align: center;
   list-style-type: none;
 }
@@ -123,7 +113,7 @@ a:visited {
 }
 
 .nome {
-  padding-top: 27vh;
+  padding-top: 24vh;
   padding-left: 2.5vw;
   font-family: "Bebas Neue", cursive;
   font-size: 3em;
@@ -136,7 +126,13 @@ a:visited {
 }
 
 .p2{
-  padding-top: 13vh; 
+  padding-top: 10vh; 
   padding-left: 2.5vw; 
   text-align: left;
+}
+
+.barra-ícones{
+  
+  margin: 45px 0px 0px 55px;
+
 }
