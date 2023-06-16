@@ -100,9 +100,10 @@
   height: 3.5vh;
 }
 
-a:active {
+a:link {
   color: blanchedalmond;
 }
+
 a:visited {
   color: blanchedalmond;
 }
